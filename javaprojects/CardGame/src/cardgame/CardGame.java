@@ -33,7 +33,7 @@ public class CardGame {
         key.setValue(val);
         key.setSuit(suit);  
         
-        Card c = new Card();
+        
         key.setValue(11);
         key.setSuit("Hearts");
         boolean found = false;
