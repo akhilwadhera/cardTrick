@@ -24,6 +24,9 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }
+    printfo(){
+    System.out.println("My name is Akhil wadhera and i am from India. I like to watch anime and listen to songs in my spare time.")
+    }
 
     @Override
     public String toString() {
