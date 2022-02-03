@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class CardGame {
     public static void main(String[] args) {
-
+        
         Card[] magicHand = new Card[7];
         Scanner scan = new Scanner(System.in);
         Random generator = new Random();
@@ -23,7 +23,6 @@ public class CardGame {
             magicHand[i] = c;
             
         }
-        
          System.out.print("Enter card value: ");
         int val = scan.nextInt();
         System.out.print("Enter 1 for hearts, 2 for diamonds, 3 for spades, 4 for clubs");
@@ -47,5 +46,7 @@ public class CardGame {
         }
         if (!found)
             System.out.println("Card is not found in magic hand.");
+        
+        key.printInfo();
     }
 }
